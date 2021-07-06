@@ -1,0 +1,107 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+nav a.navbar-brand{
+    font-weight: 800%;
+    font-size: 200%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #ffffff !important;
+  }
+}
+
+.btn-white {
+  color: black !important;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}
+
+div.full_page{
+    background-image: url(../assets/img/FAQ\ –\ 1@2x.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    
+}
+
+.img-bordered{
+  border:3px solid black;
+}
+
+.bg-img{
+    background-image: url(../assets/img/Group\ 285@2x.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+div.zoom-bordered img{
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.zoom{
+  position:relative;
+  overflow:hidden;
+ 
+}
+
+div.zoom img{
+  transform: all 1.0s ease-in-out;
+  -moz-transform: all 1.0s ease-in-out;
+  -webkit-transform: all 1.0s ease-in-out;
+}
+div.zoom:hover img{
+  transform: scale(1.2);
+    cursor: pointer;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
