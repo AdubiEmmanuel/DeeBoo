@@ -4,7 +4,7 @@ header,
 .view {
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  
+  scroll-behavior: smooth;
   
 }
 
@@ -96,7 +96,7 @@ div.zoom-bordered img{
 div.zoom img{
   transform: all 3.0s ease-in-out;
   -moz-transform: all 3.0s ease-in-out;
-  -webkit-transform: all 3.0s ease-in-out;
+  -webkit-transform: all 100ms ease-in-out;
 }
 div.zoom:hover img{
   transform: scale(1.2);
@@ -213,3 +213,25 @@ ul.list-inline li.list-inline-item  a:hover{
 
 }
 
+.wrap{
+ box-sizing: border-box;
+ border:2px solid rgb(4, 194, 251);
+ background: white;
+ padding:1vh;
+ width: 95%;
+ border-radius: 1.5vh;
+}
+
+.checkbox{
+  display: flex;
+}
+
+input:checkbox{
+  border: 1px solid rgb(27, 141, 248);
+}
+
+button.bg-fixed{
+  position: fixed;
+  top:40%;
+  left:88%
+}

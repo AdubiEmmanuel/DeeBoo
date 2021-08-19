@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>DeeBoo</title>
+  </head>
+  <style>
+      body{
+          background-image: url(assets/img/FAQ – 1@2x.png);
+          background-repeat:no-repeat;
+          background-size:cover;
+          background-position:center;
+          background-attachment:fixed;
+      }
+    .btn-black{
+      background:black;
+      color:white;
+  }
+    .btn-black:hover{
+        color:rgb(253, 223, 223);
+    }
+
+    .btn-outline-black{
+      border:2px solid black;
+    }
+    .btn-outline-black:hover{
+      background:black;
+      color:beige;
+    }
+</style>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent ml-3 mr-3">
+      <a class="navbar-brand display-1" href="#" style="font-weight: 800;">DeeBoo!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto text-lg-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="voting.html">Voting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Create Polls</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forms.html">Forms</a>
+          </li>
+        </ul>
+        <div class="my-5 my-lg-0">
+          <button class="btn  btn-outline-black my-1 my-sm-0 p-2 mx-2
+            border-dark" type="submit" style="width:150px;">Login</button>
+          <button class="btn btn-black my-2 my-sm-0 p-2 mx-2 btn-lg"type="button">Get
+            started</button>
+        </div>
+      </div>
+    </nav>
+<p class="text-center">Pro version <span class="text-danger">coming soon,</span>  signup to access more feature of our powerful tools</p>
+<button class="btn btn-black text-white bg-fixed">
+  + Add Questions<span class="badge"></span>
+</button>
+    <div class="full_page ">
+      <div class="container">
+        <div class="row mx-auto px-5" >
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <h1 class="display-4"><b>New Polls</b></h1>
+                <p>Free polls for non-members are limited to <span class="text-danger">3 option per polls</span> </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12"></div>
+        </div>
+      </div>
+        <div class="container mx-auto px-5">
+        <div class="row  ">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="form-group">
+                    <label for="pollCat">Poll Category</label>
+                    <select class="form-control" name="" id="">
+                      <option value="green">Green</option>
+                      <option value="blue">Blue</option>
+                      <option value="red">Red</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <div class="form-group">
+                    <label for="pollCat">Poll Visiblity</label>
+                    <select class="form-control" name="" id="">
+                      <option value="green">Green</option>
+                      <option value="blue">Blue</option>
+                      <option value="red">Red</option>
+                    </select>
+                  </div>
+            </div>
+            </div>
+          
+        <div class="row ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <label for="opt" class="small">Poll Options</label>
+            </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">          
+            <div class="wrap"><input class="bg-white p-4" type="checkbox" name="opt" id="opt"  value="m-opt">Allow multiple vote</div>
+          </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+              <div class="wrap"><input class="bg-white p-4" type="checkbox" name="opt" id="opt"  value="m-opt">Login to vote</div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+              <div class="wrap"><input class="bg-white p-4" type="checkbox" name="opt" id="opt"  value="m-opt">Set end date</div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12"><div class="wrap"><input class="bg-white p-4" type="checkbox" name="opt" id="opt"  value="m-opt">Allow sharing</div>
+          </div>       
+          </div>
+          <div class="row py-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="form-group">
+                <label for="qus">Poll Question 1</label>
+                <textarea class="form-control" name="qus" id="qus" rows="3" placeholder="E.g What is your favourite color?"></textarea>
+              </div>
+            </div>
+          </div>
+          <form action="">
+            <div class="row mt-3">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <label for="opt1">Poll Option 1</label>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-lg-10 col-md-10 col-sm-6 col-12">
+              
+              <input id="opt1" type="text" placeholder="E.g Green" name="opt1" class="form-control form-control-lg">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+              <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Add image</button>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+              <label for="opt1">Poll Option 2</label>
+            </div>
+          </div>
+        <div class="row ">
+          <div class="col-lg-10 col-md-10 col-sm-6 col-12">
+            
+            <input id="opt2" type="text" placeholder="E.g Green" name="opt2" class="form-control form-control-lg">
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Add image</button>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <label for="opt3">Poll Option 3</label>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-6 col-12">
+          
+          <input id="opt3" type="text" placeholder="E.g Green" name="opt1" class="form-control form-control-lg">
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Add image</button>
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+      <p>
+        <a class="btn btn-outline-dark" data-toggle="collapse" href="#contentId" aria-expanded="false" aria-controls="contentId">
+          Add option +
+        </a>
+      </p>
+      <div class="collapse" id="contentId">
+        Option 1
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+     <!-- Button trigger modal -->
+     <button type="button" class="btn btn-black btn-lg" data-toggle="modal" data-target="#modelId">
+       Create Poll
+     </button>
+     
+     <!-- Modal -->
+     <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title">Ticket created Successfully</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                   </button>
+               </div>
+           <div class="modal-body">
+             <div class="container-fluid">
+               <div class="row">
+                 <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                   <form action="" class="form-group">
+                     <input type="email" name="email" placeholder="Your email here" class="form-control">
+                   </form>
+                 </div>
+                 <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                   <p class="small">You will be sent a link to monitor your poll as a <span class="text-danger">free user</span></p>
+                 </div>
+                 <div class="col-lg-4 col-md-4 col-sm-12 col-12"></div>
+               </div>
+              <hr>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-5">
+                  <h1>Shareable link</h1>
+                  <p>https://polls.deeboo/pokdkfkdj</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-5">
+                  <h5>Share via:</h5>
+                  <span>F</span>
+                  <span>M</span>
+                  <span>T</span>
+                  <span>I</span>
+                </div>
+              </div>
+             </div>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+             <button type="button" class="btn btn-primary">Save</button>
+           </div>
+         </div>
+       </div>
+     </div>
+      </div>
+    </div>
+          </form>
+        </div>
+      </div>
+    
+    
+
+  
+
+
+<footer class="well bg-dark text-white py5 mt-5 container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-12"><h1 class="display-4">DeeBoo!</h1></div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-12"></div>
+  </div>
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <p class="lead strong">Stay informed about everything new?</p>
+    <input type="text" placeholder="Enter your text here" class="form-control border border-bottom-0 border-white my-3">
+    <p class="small text-white">We don't like spam either, read our <a href="#" class="text-white">privacy policy</a> if you are not convinced</p>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 col 12"></div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col 12">
+    <h3>SOCIALS</h3>
+    <ul style="list-style-type: none;">
+      <li>Instagram</li>
+      <li>Facebook</li>
+      <li>Twitter</li>
+      <li>Linkedin</li>
+      <li>Snapchat</li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+    <p class="lead">&copy; 2021 DeeBoo! | Site Built by Adubi Timmy |</p>
+  </div>
+  
+  <div class="col-lg-8 col-md-8 col-sm-6 col-12">
+  <div class="row">
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+    <h3 class="text-white">Contact Us</h3> 
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+    <h3 class="text-white">FQS's</h3>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12"></div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+    <ul class="navbar small" style="list-style-type: none;">
+      <li class="navbar-item">Contact</li>
+      <li class="navbar-item">Privacy</li>
+      <li class="navbar-item">Terms</li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+<div class="row container">
+
+</div>
+</footer>
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
