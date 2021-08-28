@@ -3,8 +3,16 @@ body,
 header,
 .view {
   height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  box-sizing: border-box;
+  justify-content: center;
+
+
   
 }
 
@@ -234,4 +242,8 @@ button.bg-fixed{
   position: fixed;
   top:40%;
   left:88%
+}
+
+.footer-heading{
+  font-weight:bolder;
 }
