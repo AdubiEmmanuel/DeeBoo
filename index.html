@@ -80,10 +80,16 @@
         <nav class="navbar navbar-light bg-light">
           <form class="container-fluid">
             <div class="input-group">
-              <input type="text" class="form-control border-dark"
-                placeholder="Search for Polls and candidates"
-                aria-label="search" aria-describedby="basic-addon1">
-              <button class="btn btn-black ml-2 " type="button">Search</button>
+              <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                  <input type="text" class="form-control border-dark"
+                  placeholder="Search for Polls and candidates"
+                  aria-label="search" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <button class="btn btn-black mx-auto" type="button">Search</button>
+              </div>
             </div>
           </form>
         </nav>
@@ -484,7 +490,7 @@
     </section>
 
 
-<footer class="well bg-dark text-white py5 mt-5 container">
+<footer class="well bg-dark text-white py5 mt-5 container ">
   <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-6 col-12"><h1 class="display-4 footer-heading font-weight-bolder mt-2">DeeBoo!</h1></div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-12"></div>
@@ -493,54 +499,72 @@
   <br>
   <br>
 <div class="row">
-  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+  <div class="col-sm-12 col-12">
     <p class="lead font-weight-bold">Stay informed about everything new?</p>
-    <input type="text" placeholder="Enter your text here" class="form-control my-3 bg-dark border-bottom-white font-weight-bold">
+    <input type="text" placeholder="Enter your text here" class="form-control my-3 bg-dark border-bottom-white font-weight-bold" size="70%">
     <p class="small text-white">We don't like spam either, read our <a href="#" class="text-white">privacy policy</a> if you are not convinced</p>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+  </div>
+  <div class="jumbotron bg-white">
+    <h4 class="text-dark text-center">Create A Poll</h4>
+  </div>
+  <div class="container">
     <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-12"></div>
   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-    <h3>SOCIALS</h3>
-    <br>
-    <br>
-    <ul style="list-style-type: none;">
-      <li>Instagram</li>
-      <li>Facebook</li>
-      <li>Twitter</li>
-      <li>Linkedin</li>
-      <li>Snapchat</li>
+    <div class="d-none d-sm-block d-xs-block">
+      <h3 class="lead">SOCIALS</h3>
+      <ul class="p-0 m-0" style="list-style-type: none;">
+        <li>Instagram</li>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Linkedin</li>
+        <li>Snapchat</li>
+      </ul>
+    </div>
+    <div class="container">
+    <h3 class="text-center d-lg-none d-md-none font-weight-bold">SOCIALS</h3>
+    <div class="row  px-4 d-xl-none d-lg-none d-md-none">
+      <div class="col-6 col-xs-6 ">
+        <p>Instagram</p>
+        <p>Facebook</p>
+        <p>Twitter</p>
+      </div>
+      <div class="col-6 col-xs-6">
+        <p>Linkedin</p>
+        <p>Snapchat</p>
+      </div>     
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+<div class="row container text-center"> 
+<div class="col-sm-6 col-6">
+  <h5 class="text-white">Contact Us</h3> 
+</div>
+<div class="col-sm-6 col-6">
+  <h5 class="text-white ">FQS's</h3>
+</div>
+</div>
+    <ul class="list-group small " style="list-style-type: none; font-size:12;">
+      <div class="row p-5">
+        <div class="col-sm-4 col-4">
+          <li class="navbar-item">Contact</li>
+        </div>
+        <div class="col-sm-4 col-4">
+          <li class="navbar-item">Privacy</li>
+        </div>
+        <div class="col-sm-4 col-4">
+          <li class="navbar-item">Terms</li>
+        </div>
+      </div>
     </ul>
-  </div>
-</div>
-</div>
-</div>
-<div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-    <p class="lead">&copy; 2021 DeeBoo! | Site Built by Adubi Timmy |</p>
-  </div>
-  
-  <div class="col-lg-8 col-md-8 col-sm-6 col-12">
-  <div class="row">
-  <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-    <h3 class="text-white">Contact Us</h3> 
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-    <h3 class="text-white">FQS's</h3>
-  </div>
-  <div class="col-lg-3 col-md-4 col-sm-6 col-12"></div>
-  <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-    <ul class="navbar small" style="list-style-type: none;">
-      <li class="navbar-item">Contact</li>
-      <li class="navbar-item">Privacy</li>
-      <li class="navbar-item">Terms</li>
-    </ul>
-  </div>
-</div>
-</div>
-</div>
-</div>
+    <div class="row container text-center">
+      <div class="col-sm-12 col-12 ">
+        <p class="small">&copy; 2021 DeeBoo! | Site Built by Adubi Timmy |</p>
+      </div>
+    </div>
 </footer>
 
 
