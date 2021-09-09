@@ -20,7 +20,7 @@ body{
     height: 80px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    border: 3px solid #fff ;
+    /* border: 3px solid #fff ; */
 }
 
 .menu-btn_burger{
@@ -50,3 +50,17 @@ body{
     transform: translateY(16px);   
 }
 
+/* Animation starts */
+ .menu-btn.open .menu-btn_burger{
+     transform:translateX(-50px); 
+     background:transparent;
+     box-shadow:none;
+ }
+
+ .menu-btn.open .menu-btn_burger::before{
+     transform:rotate(45deg) translate(35px, -35px);
+ }
+
+ .menu-btn.open .menu-btn_burger::after{
+    transform:rotate(-45deg) translate(35px, 35px);
+ }
